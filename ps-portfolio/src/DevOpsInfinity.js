@@ -32,13 +32,7 @@ export default function DevOpsInfinity() {
   );
 
   return (
-    <div
-      className={`min-h-screen w-full flex flex-col ${
-        darkMode
-          ? "bg-gradient-to-br from-slate-900 via-slate-950 to-black text-slate-100"
-          : "bg-gradient-to-br from-white via-slate-50 to-slate-100 text-slate-900"
-      }`}
-    >
+    <div>
       {/* Canvas */}
       <main className="flex-1 grid place-items-center p-4 md:p-6">
         <div className="relative w-full max-w-5xl aspect-[3/2] md:aspect-[3/1]">
@@ -102,7 +96,7 @@ export default function DevOpsInfinity() {
                 transition={{ duration: 0.25 }}
                 className="text-center text-xs md:text-sm lg:text-base text-slate-300"
               >
-                <span className="text-slate-400">Portfolio Incoming 🚀🚀🚀</span>{" "}
+                <span className="text-slate-400">Sbu's Portfolio Incoming 🚀🚀🚀</span>{" "}
               </motion.div>
             </AnimatePresence>
           </div>
