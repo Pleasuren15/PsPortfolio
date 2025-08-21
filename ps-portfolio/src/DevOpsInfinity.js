@@ -1,26 +1,11 @@
-import React, { useEffect, useMemo, useState } from "react";
+import { useMemo } from "react";
 import { motion, AnimatePresence } from "framer-motion";
-import {
-  Activity,
-  ClipboardList,
-  Code2,
-  GitBranch,
-  Rocket,
-  Server,
-  TestTube2,
-  Wrench,
-  Layers,
-  Cloud,
-  ShieldCheck,
-  BookOpen,
-} from "lucide-react";
 
 
 export default function DevOpsInfinity() {
-  const [speed, setSpeed] = useState(3.0); // slower default speed
-  const [stageIndex, setStageIndex] = useState(0);
-  const [glow, setGlow] = useState(true);
-  const [darkMode, setDarkMode] = useState(true);
+  const speed = 3;
+  const stageIndex = 0;
+  const glow = true;
 
 
 
