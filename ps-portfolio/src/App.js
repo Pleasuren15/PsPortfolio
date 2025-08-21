@@ -1,12 +1,11 @@
 import './App.css';
+import DevOpsInfinity from './DevOpsInfinity';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <p>
-          Pleasure Ndhlovu's Portfolio
-        </p>
+        <DevOpsInfinity />
       </header>
     </div>
   );
