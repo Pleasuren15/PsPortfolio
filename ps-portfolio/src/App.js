@@ -1,13 +1,9 @@
 import './App.css';
-import DevOpsInfinity from './DevOpsInfinity';
+import AboutMe from './components/about-me';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <DevOpsInfinity />
-      </header>
-    </div>
+    <AboutMe />
   );
 }
 

@@ -1,0 +1,75 @@
+:root {
+    --padding-vertical: 10px;
+    --padding-horizontal: 40px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: var(--padding-vertical) var(--padding-horizontal);
+}
+
+.navbar-reset {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+}
+
+.navbar-reset img {
+    width: 50px;
+    height: 50px;
+    /* border-radius: 50%; */
+}
+
+.navbar-links ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.navbar-links a {
+    position: relative;
+    color: #007bff;
+    text-decoration: none;
+    font-weight: 500;
+    transition: color 0.3s ease;
+}
+
+.navbar-links a::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -2px;
+    width: 0%;
+    height: 2px;
+    background-color: #007bff;
+    transition: width 0.3s ease;
+}
+
+.navbar-links a:hover {
+    color: #0056b3;
+    /* Slightly darker on hover */
+}
+
+.navbar-links a:hover::after {
+    width: 100%;
+    /* Expands underline */
+}
+
+.about-me-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+     padding: var(--padding-vertical) var(--padding-horizontal);
+}
+
+.about-me-container-information h1{
+  background: linear-gradient(90deg, #007bff, #6f42c1);
+  -webkit-background-clip: text; /* for Safari/Chrome */
+  -webkit-text-fill-color: transparent; 
+  background-clip: text; /* standard */
+  color: transparent; /* fallback */
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 900;
+}
