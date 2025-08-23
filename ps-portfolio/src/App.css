@@ -2,8 +2,22 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap');
 
 /* Apply globally */
+body, #root, .App {
+    min-height: 100vh;
+    background: linear-gradient(135deg, #3a4a6d 0%, #0f0c0f 100%);
+    color: #f8f9fa;
+    font-family: 'Montserrat', 'Segoe UI', Arial, sans-serif;
+    transition: background 0.3s;
+}
+
+.App {
+    min-height: 100vh;
+    background: transparent;
+    /* Let the body handle the background */
+    padding-bottom: 40px;
+}
+
 body {
-  font-family: 'Montserrat', sans-serif;
   margin: 0;
   padding: 0;
   background-color: #f8f9fa;
