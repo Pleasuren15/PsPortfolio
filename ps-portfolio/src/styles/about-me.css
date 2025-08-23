@@ -76,10 +76,14 @@
 }
 
 .about-me-container-avatar img {
-    max-width: 80%;
+    max-width: 55%;
     height: auto;
     border-radius: 50%;
-    box-shadow: 0 4px 24px rgba(0, 0, 0, 0.1);
+    box-shadow: 
+        0 4px 24px rgba(0, 0, 0, 0.1), /* original soft shadow */
+        0 0 15px rgba(0, 123, 255, 0.6), /* blue glow */
+        0 0 30px rgba(0, 123, 255, 0.4); /* extended glow */
+    transition: box-shadow 0.3s ease;
 }
 
 .about-me-container-information h1 {
@@ -105,7 +109,7 @@
     }
 
     to {
-        width: 72%;
+        width: 99%;
     }
 }
 
