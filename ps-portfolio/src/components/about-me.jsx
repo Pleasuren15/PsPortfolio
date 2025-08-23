@@ -22,7 +22,8 @@ export default function AboutMe() {
                     <h1>Hi, I'm Pleasure Sibusiso Ndhlovu</h1>
                     <p>
                         Lorem ipsum dolor sit amet consectetur, adipisicing elit. Explicabo aperiam assumenda ut veritatis ducimus autem sed unde eaque! Consequatur, nobis q
-                        uam provident aliquid ullam cupiditate quod nisi quas illo delectus?
+                        uam provident aliquid ullam cupiditate quod nisi quas illo delectus? Lorem ipsum dolor sit amet consectetur, adipisicing elit. Explicabo aperiam assumenda 
+                        ut veritatis ducimus autem sed unde eaque! Consequatur, nobis q uam provident aliquid ullam cupiditate quod nisi quas illo delectus?
                     </p>
                     <div className='about-me-container-buttons'>
                         <button className='btn-primary'>Download CV</button>
