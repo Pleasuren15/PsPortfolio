@@ -19,7 +19,7 @@ export default function AboutMe() {
 
             <div className='about-me-container'>
                 <div className='about-me-container-information'>
-                    <h1>Hi, I'm Pleasure Sibusiso Ndhlovu</h1>
+                    <h1>Hi, I'm Sbu Ndhlovu</h1>
                     <p>
                         Lorem ipsum dolor sit amet consectetur, adipisicing elit. Explicabo aperiam assumenda ut veritatis ducimus autem sed unde eaque! Consequatur, nobis q
                         uam provident aliquid ullam cupiditate quod nisi quas illo delectus? Lorem ipsum dolor sit amet consectetur, adipisicing elit. Explicabo aperiam assumenda 
